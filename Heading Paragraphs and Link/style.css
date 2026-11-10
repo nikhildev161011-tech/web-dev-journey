@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(243, 134, 188);
+}
+p{
+    background-color: aqua;
+    width: 100%;
+    border-radius: 6px;
+}
