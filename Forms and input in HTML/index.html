@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - lets learn its</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Form to apply for web-dev</h1>
+    <form action="post">
+
+        <div class="userName">
+        <label for="username">Enter your user name :</label>
+        <input type="text" id="username" name="username"
+        placeholder="Enter Your Username">
+        </div>
+
+        <div class="Gender">
+            <input type="radio" id="male"  name="gender" value="male">
+            <label for="male">male</label>
+            
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+            
+        </div>
+
+        <div class="checkBox"> 
+            <input type="checkbox" id="apply" name="apply" value="yes">
+            <label for="apply">Apply now</label>
+
+        </div>
+       
+
+        <div class="commentBox">
+            <label for="comment">Enter your feedback here</label>
+            <textarea class="commentPlaceholder" id="comment" name="comment" rows="4" cols="50"></textarea>
+        </div>
+
+
+        <div>
+            <select name="department">
+                <option>Software Engineer</option>
+                <option>Data Analyst</option>
+                <option>HR</option>
+                <option>Manger</option>
+            </select>
+        </div>
+
+
+    </form>
+    
+</body>
+</html>
